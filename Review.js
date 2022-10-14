@@ -302,19 +302,19 @@ let arr = [1, 'mamamama', 'my', [1,2,'abcc', 5, -20,5, 'b', 'c'], 'papac', 'abc'
    
 
 
-// function findNumbers (arg){
+function findNumbers (arg){
   
-//     for(let i = 0; i < arg.length; i++){
-//       if(typeof(arg[i]) == 'number')
-//       console.log(arg[i]);
-//       for(let j = 0; j < arg[i].length; j++){
-//       if(typeof(arg[i][j]) == 'number')
-//       console.log(arg[i][j]);
+    for(let i = 0; i < arg.length; i++){
+      if(typeof(arg[i]) == 'number')
+      console.log(arg[i]);
+      for(let j = 0; j < arg[i].length; j++){
+      if(typeof(arg[i][j]) == 'number')
+      console.log(arg[i][j]);
   
-//       }
+      }
   
-//     }
+    }
   
-//   }
-//   findNumbers(arr);
+  }
+  findNumbers(arr);
 
